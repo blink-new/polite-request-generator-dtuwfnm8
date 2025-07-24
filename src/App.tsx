@@ -231,10 +231,10 @@ function App() {
         </Card>
 
         {/* CIMB VISA INFINITE Marketing Banner */}
-        <Card className="p-4 mb-6 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+        <Card className="p-4 mb-6 bg-gradient-to-r from-red-600 to-red-700 text-white">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-600 font-bold text-sm">CIMB</span>
+              <span className="text-red-600 font-bold text-sm">CIMB</span>
             </div>
             <div className="flex-1">
               <h4 className="font-semibold mb-1">CIMB VISA INFINITE</h4>
@@ -246,7 +246,7 @@ function App() {
               </div>
             </div>
           </div>
-          <Button className="w-full mt-4 bg-white text-purple-600 hover:bg-gray-100">
+          <Button className="w-full mt-4 bg-white text-red-600 hover:bg-gray-100">
             Apply Now
           </Button>
         </Card>
